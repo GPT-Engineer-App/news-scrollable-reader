@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles based on provided image */
+:root {
+  --light-purple: #e0d7f5;
+  --light-green: #c8f7c5;
+}
+
+body {
+  background-color: var(--light-purple);
+}
+
+.container {
+  background-color: var(--light-green);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+input[type="text"] {
+  border-color: var(--light-green);
+}
+
+button {
+  background-color: var(--light-green);
+  color: #000;
+}
+
+button:hover {
+  background-color: var(--light-purple);
+}
+
+li {
+  background-color: var(--light-green);
+  border: 1px solid var(--light-purple);
+}
